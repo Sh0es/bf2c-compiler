@@ -15,7 +15,7 @@ string ext(string fn)
 	{
 		x.push_back(fn[i]);
 	}
-	return fn;
+	return x;
 }
 
 int main()
@@ -27,7 +27,7 @@ int main()
 	cout << "Enter Filename" << endl;
 	cin >> ifname;
 
-	if(ext(ifname) != "bf")
+	if(ext(ifname) != ".bf")
 	{
 		cerr << "ERROR: That isn't a `bf` file." << endl;
 		return -1;
