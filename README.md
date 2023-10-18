@@ -1,2 +1,2 @@
 # bf2c-compiler
-A source-to-source compiler from brainfuck code to C.
+A source-to-source compiler from brainf*ck code to C.
